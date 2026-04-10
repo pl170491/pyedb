@@ -1,0 +1,97 @@
+
+
+
+
+
+
+The ``layout_obj.py`` module
+============================
+
+.. py:module:: pyedb.grpc.database.inner.layout_obj
+
+
+Summary
+-------
+
+
+
+
+
+
+
+
+
+
+
+
+.. py:currentmodule:: layout_obj
+.. tab-set::
+
+
+
+
+    .. tab-item:: Classes
+
+        .. list-table::
+          :header-rows: 0
+          :widths: auto
+
+
+          * - :py:obj:`~pyedb.grpc.database.inner.layout_obj.HFSSProductProperty`
+            - 
+
+
+          * - :py:obj:`~pyedb.grpc.database.inner.layout_obj.LayoutObj`
+            - Represents a layout object.
+
+
+
+
+
+    .. tab-item:: Functions
+
+        .. list-table::
+          :header-rows: 0
+          :widths: auto
+
+
+          * - :py:obj:`~parse_hfss_string`
+            - 
+
+
+
+
+
+
+
+
+
+.. toctree::
+   :titlesonly:
+   :maxdepth: 1
+   :hidden:
+
+    <span class="nf nf-cod-symbol_class"></span> HFSSProductProperty</autoapi/pyedb/grpc/database/inner/layout_obj/HFSSProductProperty>
+    <span class="nf nf-cod-symbol_class"></span> LayoutObj</autoapi/pyedb/grpc/database/inner/layout_obj/LayoutObj>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Module detail
+-------------
+
+.. py:function:: parse_hfss_string(s: str | None) -> HFSSProductProperty
+
+
+

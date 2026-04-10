@@ -1,0 +1,108 @@
+
+
+
+
+
+
+:class:`HFSSProductProperty`
+============================
+
+
+.. py:class:: pyedb.grpc.database.inner.layout_obj.HFSSProductProperty
+
+
+.. py:currentmodule:: HFSSProductProperty
+
+Overview
+--------
+
+.. tab-set::
+
+
+
+   .. tab-item:: Methods
+
+      .. list-table::
+          :header-rows: 0
+          :widths: auto
+
+          * - :py:attr:`~to_hfss_string`
+            - 
+
+
+
+   .. tab-item:: Attributes
+
+      .. list-table::
+          :header-rows: 0
+          :widths: auto
+
+          * - :py:attr:`~hfss_type`
+            - 
+          * - :py:attr:`~orientation`
+            - 
+          * - :py:attr:`~layer_alignment`
+            - 
+          * - :py:attr:`~horizontal_extent_factor`
+            - 
+          * - :py:attr:`~vertical_extent_factor`
+            - 
+          * - :py:attr:`~pec_launch_width`
+            - 
+
+
+
+
+
+
+Import detail
+-------------
+
+.. code-block:: python
+
+    from pyedb.grpc.database.inner.layout_obj import HFSSProductProperty
+
+
+Attribute detail
+----------------
+
+.. py:attribute:: hfss_type
+   :type:  str
+   :value: 'Gap'
+
+
+.. py:attribute:: orientation
+   :type:  str
+   :value: ''
+
+
+.. py:attribute:: layer_alignment
+   :type:  str
+   :value: ''
+
+
+.. py:attribute:: horizontal_extent_factor
+   :type:  float | int
+   :value: 0.0
+
+
+.. py:attribute:: vertical_extent_factor
+   :type:  float | int
+   :value: 0.0
+
+
+.. py:attribute:: pec_launch_width
+   :type:  str
+   :value: '10um'
+
+
+
+
+Method detail
+-------------
+
+.. py:method:: to_hfss_string() -> str
+
+
+
+
